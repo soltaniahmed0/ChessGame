@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="test.LeaderBoardController">
+   <children>
+      <TableView fx:id="leaderboard" layoutX="75.0" layoutY="94.0" prefHeight="258.0" prefWidth="450.0">
+        <columns>
+          <TableColumn fx:id="player" prefWidth="142.4000244140625" text="Player" />
+          <TableColumn fx:id="Score" prefWidth="166.4000244140625" text="Score" />
+            <TableColumn fx:id="Rank" prefWidth="140.79998779296875" text="Rank" />
+        </columns>
+      </TableView>
+      <Label layoutX="228.0" layoutY="29.0" text="LeaderBoard">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
